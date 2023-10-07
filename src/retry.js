@@ -2,7 +2,7 @@
  * Retries an asynchronous operation with a specified maximum number of retries and delay between retries.
  *
  * @param {Function} operation - The asynchronous operation to retry.
- * @param {number} [maxRetries=5] - The maximum number of times to retry the operation.
+ * @param {number} [maxRetries=10] - The maximum number of times to retry the operation.
  * @param {number} [retryDelayMs=3000] - The delay in milliseconds between retries.
  * @returns {Promise} - A Promise that resolves when the operation succeeds or rejects if it fails after all retries.
  * @throws {Error} If the operation continues to fail after the specified number of retries,
