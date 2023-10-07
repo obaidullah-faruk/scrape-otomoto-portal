@@ -1,0 +1,20 @@
+{
+  "name": "eastnetic",
+  "version": "1.0.0",
+  "description": "Eastnetic task for data engineer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "eastnetic",
+    "scrapping"
+  ],
+  "author": "MD. Obaidullah Al-Faruk",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "puppeteer": "^21.3.6",
+    "exceljs": "^4.3.0"
+  }
+}
